@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="img/logo-alura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" name="texto-entrada" id="texto-entrada" cols="45" rows="8"  placeholder="Digite seu texto"></textarea>
+
+            <div class="informacoes">
+                <h6>Apenas letras minúsculas e sem acento</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-encriptar" id="btn-encriptar">Criptografar</button>
+                <button class="btn-desencriptar" id="btn-desencriptar">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea cols="20" name="resultado" id="resultado" rows="10" class="mensagem"></textarea>
+            <button class="btn-copiar" id="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="nome-desenvolvedor">Desenvolvido por Natalia Missio</p>
+
+        <div class="redesociais">
+            <a href="https://www.linkedin.com/in/natalia-missio-1a7a5514a/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/nataliamissio" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://use.fontawesome.com/038eef6c36.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
